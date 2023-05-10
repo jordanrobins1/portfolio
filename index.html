@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link href="./dist/output.css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="font-poppins" style="background-image: url('https://wallpapercrafter.com/sizes/1366x768/86976-dots-simple-background-abstract-hd-4k-dark-black-dribbble-oled.jpg');">
+        <nav class="border-primaryorange sticky top-0 z-50 border-b-2 p-6 backdrop-blur-sm">
+          <div class="flex items-center justify-between">
+            <div class="pt-2">
+              <img class="w-20" src="https://cdn.freebiesupply.com/logos/thumbs/2x/codepen-icon-logo.png" alt="" />
+            </div>
+            <div class="font-poppins hidden space-x-6 md:flex">
+              <a href="#" class="hover:text-primaryorange text-white transition-transform hover:scale-110">Home</a>
+              <a href="#" class="hover:text-primaryorange text-white transition-transform hover:scale-110">What We Do</a>
+              <a href="#" class="hover:text-primaryorange text-white transition-transform hover:scale-110">Contact Us</a>
+            </div>
+            <button id="menu-btn" class="hamburger my-auto block self-end focus:outline-none md:hidden">
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </nav>
+      
+        <div class="mx-auto mt-20 max-w-3xl text-center text-white">
+          <h1 class="font-poppins font text-center text-5xl font-semibold">Elevating businesses through exceptional web development</h1>
+          <a href="#case">
+            <button class="font-poppins border-primaryorange hover:bg-primaryorange mt-16 rounded-full border-2 bg-transparent px-8 py-2 backdrop-blur-sm duration-200 ease-in-out hover:-translate-y-2 hover:text-white">Explore</button>
+          </a>
+        </div>
+      
+        <div class="mx-auto w-4/5" id="features-container md:w-full">
+          <h2 class="font-poppins my-20 text-center text-2xl font-light text-white">Crafting immersive digital experiences with code</h2>
+          <div class="flex flex-row justify-center gap-10 sm:flex-wrap md:flex-wrap">
+            <div class="bg-boxesgrey font-poppins sm:w w-44 px-3 py-6 text-white" id="online-store">
+              <p class="text-lg font-medium">Seamless online stores.</p>
+              <p class="text-sm font-thin">E-commerce solutions: Seamless online stores that drive revenue and customer loyalty.</p>
+            </div>
+            <div class="bg-boxesgrey font-poppins w-44 px-3 py-6 text-white" id="responsive">
+              <p class="text-lg font-medium">Engaging designs for all devices.</p>
+              <p class="text-sm font-thin">Responsive web design: Engaging designs optimized for all devices.</p>
+            </div>
+            <div class="bg-boxesgrey font-poppins w-44 px-3 py-6 text-white">
+              <p class="text-lg font-medium">Tailored solutions for businesses.</p>
+              <p class="text-sm font-thin">Custom web app development: Tailored solutions to solve complex business challenges.</p>
+            </div>
+            <div class="bg-boxesgrey font-poppins w-44 px-3 py-6 text-white">
+              <p class="font text-lg font-medium">Intuitive apps for businesses.</p>
+              <p class="text-sm font-thin">Mobile app design & development: Intuitive apps that connect businesses with customers on-the-go.</p>
+            </div>
+          </div>
+        </div>
+      
+        <hr class="border-primaryorange mx-auto my-24 w-4/5 border-2" />
+      
+        <div class="m-auto mt-16 max-w-3xl text-center">
+          <h1 class="font-poppins font pb-16 text-center text-5xl font-semibold text-white">See how we can boost your business</h1>
+          <a href="#contact">
+            <img class="animate-pulseupdown m-auto w-1/5" src="https://www.pngkit.com/png/full/50-508417_blue-arrow-down-png-download-white-arrow-down.png" />
+          </a>
+        </div>
+      
+        <hr class="border-primaryorange mx-auto my-24 w-4/5 border-2" />
+      
+        <div class="mx-auto flex w-4/5 flex-row flex-wrap justify-center gap-7 text-white" id="case">
+          <div class="font-poppins block h-64 w-1/3 bg-cover text-center" style="background-image: url('https://meduc8ion.co.uk/wp-content/uploads/2021/07/ewr.png');" id="med">
+            <h3 class="text-2xl font-extrabold">Meduc8ion</h3>
+            <p class="hidden hover:block">Website and ecommerce with a custom booking calendar</p>
+          </div>
+          <div class="font-poppins block h-64 w-1/3 bg-cover bg-center p-28 text-center" style="background-image: url('https://www.healthscreenuk.co.uk/wp-content/uploads/2019/01/healthscreen_van.jpg');" id="hs">
+            <h3 class="text-2xl font-extrabold">Healthscreen</h3>
+            <p class="hidden hover:block">>Website maintenance and CRM built to required spec</p>
+          </div>
+          <div class="fblock font-poppins h-64 w-1/3 bg-cover p-28 text-center" style="background-image: url('https://mlum7ex2ith4.i.optimole.com/cb:gSP2~59727/w:1080/h:1080/q:mauto/https://www.hear4u.co.uk/wp-content/uploads/2023/02/Untitled-design-20.png');" id="h4u">
+            <h3 class="text-2xl font-extrabold">Hear4u</h3>
+            <p class="hidden hover:block">>Website creation and general daily maintenance</p>
+          </div>
+          <div class="fblock font-poppins h-64 w-1/3 bg-cover p-28 text-center" style="background-image: url('https://post.healthline.com/wp-content/uploads/2021/01/Doctor-examining-the-ear-of-a-senior-woman-in-clinic-1200x628-facebook-1200x628.jpg');" id="ewrs">
+            <h3 class="text-2xl font-extrabold">EWRS</h3>
+            <p class="hidden hover:block">>Automatic leads generating website creation</p>
+          </div>
+        </div>
+      
+        <hr class="border-primaryorange mx-auto my-24 w-4/5 border-2" />
+      
+        <div class="font-poppins my-24 text-center text-5xl font-semibold text-white">
+          <h1>Where to find us</h1>
+        </div>
+        <div class="h-96">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.4829558653087!2d-1.6459118226094658!3d52.43416557203877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870b4763c271c0f%3A0xcd63d88a6bc0fe86!2sPertemps%20Head%20Office!5e0!3m2!1sen!2suk!4v1683282867247!5m2!1sen!2suk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      
+        <div class="flex flex-col md:flex-row" id="contact">
+          <div class="bg-primaryorange p-12 text-center text-3xl text-white">
+            <p class="contact-left-text">Crafting digital experiences that stand out.</p>
+            <img class="mx-auto my-14 w-6/12" src="https://cdn.freebiesupply.com/logos/thumbs/2x/codepen-icon-logo.png" />
+            <p class="contact-left-text">Digital solutions that help businesses thrive online.</p>
+          </div>
+          <div class="bg-boxesgrey flex flex-col justify-center">
+            <div class="ml-24 mr-12">
+              <p class="pb-6 pt-6 text-6xl text-white">Contact us today!</p>
+              <form class="form" id="form">
+                <input type="text" class="border-primaryorange h-14 w-full border-b bg-transparent" id="email" placeholder="Email" />
+                <input type="text" class="border-primaryorange h-14 w-full border-b bg-transparent" id="name" placeholder="Name" />
+                <input type="text" class="border-primaryorange h-14 w-full border-b bg-transparent" id="phone" placeholder="Phone" />
+                <input type="text" class="border-primaryorange h-14 w-full border-b bg-transparent" id="company" placeholder="Company Name" />
+                <textarea name="enquiry" class="border-primaryorange h-28 w-full border-b bg-transparent" rows="7" placeholder="Your Enquiry"></textarea>
+                <input type="submit" class="border-primaryorange mb-7 mt-7 rounded-full border-2 bg-transparent px-14 py-3 text-white backdrop-blur-sm" onclick="alert('Your form has been submitted. Thanks!')" />
+              </form>
+              <p id="log"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
